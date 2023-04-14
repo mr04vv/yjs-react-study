@@ -21,6 +21,7 @@ module.exports = {
   plugins: ["react", "@typescript-eslint", "import", "unused-imports"],
   rules: {
     // https://github.com/sweepline/eslint-plugin-unused-imports
+    "react/react-in-jsx-scope": "off",
     "@typescript-eslint/no-unused-vars": "off",
     "unused-imports/no-unused-imports": "error",
     "unused-imports/no-unused-vars": [

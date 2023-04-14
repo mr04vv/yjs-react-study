@@ -10,9 +10,14 @@
     "lint:fix": "npm run lint -- --fix"
   },
   "dependencies": {
+    "@tldraw/tldraw": "^2.0.0-alpha.12",
     "eslint-plugin-react-hooks": "^4.6.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "signia-react": "^0.1.1",
+    "y-presence": "^0.2.3",
+    "y-websocket": "^1.5.0",
+    "yjs": "^13.5.52"
   },
   "devDependencies": {
     "@types/node": "^18.15.1",
